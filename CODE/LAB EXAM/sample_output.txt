@@ -1,0 +1,33 @@
+HYBRID_TEXT_PIPELINE:
+
+Process 0 completed processing 6047150 words of positive sentiments in 1.568 s
+Process 1 completed processing 5979745 words of negative sentiments in 1.528 s
+
+Total word count across all processes: 12026895
+
+
+DISTRIBUTED_TEXT_PIPELINE:
+
+Process 1 completed processing 6007280 words in 1.898 s
+Process 0 completed processing 6019615 words in 1.945 s
+
+Total word count across all processes: 12026895
+
+
+PARALLEL_TEXT_ANALYSIS:
+
+   Processing Time                                         Word Count  Efficiency (words/sec)
+0         1.002573  {'one': 13373, 'of': 72475, 'the': 167744, 'ot...              3009011.77
+1         1.064626  {'ugh': 41, 'what': 8083, 'can': 7307, 'i': 43...              2821005.44
+2         1.078341  {'not': 15133, 'being': 3327, 'a': 80897, 'fan...              2780535.70
+3         1.028880  {'high': 1134, 'school': 920, 'friends': 919, ...              2924015.77
+
+SEQUENTIAL_TEXT_ANALYSIS:
+
+4      Petter Mattei's "Love in the Time of Money" is...  positive
+...                                                  ...       ...
+19995  ok. for starters, taxi driver is amazing. this...  negative
+19996  It's sort of hard for me to say it, because I ...  negative
+19997  I still liked it though. Warren Beatty is only...  positive
+19998  We could still use Black Adder even today. Ima...  positive
+19999  This so-called "documentary" tries to tell tha...  negative
